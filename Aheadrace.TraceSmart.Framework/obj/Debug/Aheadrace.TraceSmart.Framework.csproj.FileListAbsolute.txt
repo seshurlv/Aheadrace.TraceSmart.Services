@@ -1,0 +1,10 @@
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\obj\Debug\Aheadrace.TraceSmart.Framework.csprojResolveAssemblyReference.cache
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\bin\Debug\Aheadrace.TraceSmart.Framework.dll
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\bin\Debug\Aheadrace.TraceSmart.Framework.pdb
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\bin\Debug\Aheadrace.TraceSmart.Repository.Contracts.dll
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\bin\Debug\NHibernate.dll
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\bin\Debug\Aheadrace.TraceSmart.Repository.Contracts.pdb
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\obj\Debug\Aheadrace.TraceSmart.Framework.dll
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\obj\Debug\Aheadrace.TraceSmart.Framework.pdb
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\bin\Debug\Aheadrace.TraceSmart.DataContracts.dll
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Framework\bin\Debug\Aheadrace.TraceSmart.DataContracts.pdb

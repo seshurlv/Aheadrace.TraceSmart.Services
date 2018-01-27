@@ -1,0 +1,6 @@
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Facade.Contracts\bin\Debug\Aheadrace.TraceSmart.Facade.Contracts.dll
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Facade.Contracts\bin\Debug\Aheadrace.TraceSmart.Facade.Contracts.pdb
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Facade.Contracts\obj\Debug\Aheadrace.TraceSmart.Facade.Contracts.dll
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Facade.Contracts\obj\Debug\Aheadrace.TraceSmart.Facade.Contracts.pdb
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Facade.Contracts\bin\Debug\Aheadrace.TraceSmart.DataContracts.dll
+D:\Projects\Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Facade.Contracts\bin\Debug\Aheadrace.TraceSmart.DataContracts.pdb

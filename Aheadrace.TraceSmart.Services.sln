@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.Services", "Aheadrace.TraceSmart.Services\Aheadrace.TraceSmart.Services.csproj", "{01CBD175-F794-47F2-9A1B-D2A8D13A1C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.Facade", "Aheadrace.TraceSmart.Facade\Aheadrace.TraceSmart.Facade.csproj", "{657B0A5B-5877-4F92-8C37-D83A031E7A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.Business.Contract", "Aheadrace.TraceSmart.Business.Contract\Aheadrace.TraceSmart.Business.Contract.csproj", "{67C5F9E6-A210-4A3A-95D1-CFE629A9097D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.Business", "Aheadrace.TraceSmart.Business\Aheadrace.TraceSmart.Business.csproj", "{41D401B9-3137-4188-B414-4AA449D0AC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.DataContracts", "Aheadrace.TraceSmart.DataContracts\Aheadrace.TraceSmart.DataContracts.csproj", "{02B73D98-4A31-4ED0-B046-291FE5EE57D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.Repository.Contracts", "Aheadrace.TraceSmart.Repository.Contracts\Aheadrace.TraceSmart.Repository.Contracts.csproj", "{976E770D-DA23-4BB0-8713-9B7DE42126E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.Repository", "Aheadrace.TraceSmart.Repository\Aheadrace.TraceSmart.Repository.csproj", "{89224FF2-ED54-4D83-8052-8B8B512FB9DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.Facade.Contracts", "Aheadrace.TraceSmart.Facade.Contracts\Aheadrace.TraceSmart.Facade.Contracts.csproj", "{2C591566-DCBA-4200-9B76-2EC1AB940F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aheadrace.TraceSmart.Framework", "Aheadrace.TraceSmart.Framework\Aheadrace.TraceSmart.Framework.csproj", "{09427121-ABE5-4752-9A0B-826F54FB542E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CBD175-F794-47F2-9A1B-D2A8D13A1C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CBD175-F794-47F2-9A1B-D2A8D13A1C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CBD175-F794-47F2-9A1B-D2A8D13A1C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CBD175-F794-47F2-9A1B-D2A8D13A1C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657B0A5B-5877-4F92-8C37-D83A031E7A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657B0A5B-5877-4F92-8C37-D83A031E7A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657B0A5B-5877-4F92-8C37-D83A031E7A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657B0A5B-5877-4F92-8C37-D83A031E7A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C5F9E6-A210-4A3A-95D1-CFE629A9097D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C5F9E6-A210-4A3A-95D1-CFE629A9097D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C5F9E6-A210-4A3A-95D1-CFE629A9097D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C5F9E6-A210-4A3A-95D1-CFE629A9097D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D401B9-3137-4188-B414-4AA449D0AC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D401B9-3137-4188-B414-4AA449D0AC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D401B9-3137-4188-B414-4AA449D0AC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D401B9-3137-4188-B414-4AA449D0AC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B73D98-4A31-4ED0-B046-291FE5EE57D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B73D98-4A31-4ED0-B046-291FE5EE57D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B73D98-4A31-4ED0-B046-291FE5EE57D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B73D98-4A31-4ED0-B046-291FE5EE57D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976E770D-DA23-4BB0-8713-9B7DE42126E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976E770D-DA23-4BB0-8713-9B7DE42126E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976E770D-DA23-4BB0-8713-9B7DE42126E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976E770D-DA23-4BB0-8713-9B7DE42126E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89224FF2-ED54-4D83-8052-8B8B512FB9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89224FF2-ED54-4D83-8052-8B8B512FB9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89224FF2-ED54-4D83-8052-8B8B512FB9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89224FF2-ED54-4D83-8052-8B8B512FB9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C591566-DCBA-4200-9B76-2EC1AB940F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C591566-DCBA-4200-9B76-2EC1AB940F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C591566-DCBA-4200-9B76-2EC1AB940F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C591566-DCBA-4200-9B76-2EC1AB940F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09427121-ABE5-4752-9A0B-826F54FB542E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09427121-ABE5-4752-9A0B-826F54FB542E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09427121-ABE5-4752-9A0B-826F54FB542E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09427121-ABE5-4752-9A0B-826F54FB542E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

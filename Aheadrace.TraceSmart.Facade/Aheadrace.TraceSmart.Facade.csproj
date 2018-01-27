@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{657B0A5B-5877-4F92-8C37-D83A031E7A08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aheadrace.TraceSmart.Facade</RootNamespace>
+    <AssemblyName>Aheadrace.TraceSmart.Facade</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Login\Login.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aheadrace.TraceSmart.Business.Contract\Aheadrace.TraceSmart.Business.Contract.csproj">
+      <Project>{67c5f9e6-a210-4a3a-95d1-cfe629a9097d}</Project>
+      <Name>Aheadrace.TraceSmart.Business.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aheadrace.TraceSmart.Business\Aheadrace.TraceSmart.Business.csproj">
+      <Project>{41d401b9-3137-4188-b414-4aa449d0ac23}</Project>
+      <Name>Aheadrace.TraceSmart.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aheadrace.TraceSmart.DataContracts\Aheadrace.TraceSmart.DataContracts.csproj">
+      <Project>{02B73D98-4A31-4ED0-B046-291FE5EE57D9}</Project>
+      <Name>Aheadrace.TraceSmart.DataContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aheadrace.TraceSmart.Facade.Contracts\Aheadrace.TraceSmart.Facade.Contracts.csproj">
+      <Project>{2c591566-dcba-4200-9b76-2ec1ab940f87}</Project>
+      <Name>Aheadrace.TraceSmart.Facade.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
